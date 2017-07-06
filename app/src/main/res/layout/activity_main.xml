@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shuiz.myview.MainActivity">
+
+    <!--
+
+
+ <customview.MmyView
+        android:id="@+id/mmyView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@drawable/tim1"
+        zhy:imageScaleType="center"
+        zhy:titleText="hello android ! "
+        zhy:titleTextColor="#ff0000"
+        zhy:titleTextSize="30sp" />
+    <customview.MmyView
+        android:id="@+id/mmyView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@drawable/tim2"
+        zhy:imageScaleType="center"
+        zhy:titleText="hello android ! "
+        zhy:titleTextColor="#ff0000"
+        zhy:titleTextSize="30sp" />
+    <customview.MmyView
+        android:id="@+id/mmyView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@drawable/tim3"
+        zhy:imageScaleType="center"
+        zhy:titleText="hello android ! "
+        zhy:titleTextColor="#ff0000"
+        zhy:titleTextSize="30sp" />
+
+
+
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ScrollView>
+        -->
+
+
+    <customview.MyViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <customview.MmyView
+            android:id="@+id/mmyView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim1"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim2"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim3"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim2"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim3"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim1"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim3"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" /><customview.MmyView
+        android:id="@+id/mmyView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@drawable/tim1"
+        zhy:imageScaleType="center"
+        zhy:titleText="hello android ! "
+        zhy:titleTextColor="#ff0000"
+        zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim1"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim1"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim1"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim3"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim2"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+        <customview.MmyView
+            android:id="@+id/mmyView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zhy:image="@drawable/tim3"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello android ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp" />
+
+
+
+    </customview.MyViewGroup>
+
+
+</LinearLayout>
